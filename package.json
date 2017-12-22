@@ -1,0 +1,44 @@
+{
+	"name": "bharath-effortless-require",
+	"version": "0.0.1",
+	"description": "Effortlessly require node libraries",
+	"main": "index.js",
+	"scripts": {
+		"lint": "eslint index.js",
+		"test": "nyc mocha",
+		"watch:test": "mocha --watch",
+		"validate": "npm-run-all --parallel lint test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bharathvaj1995/effortless-require.git"
+	},
+	"keywords": [
+		"require",
+		"easy",
+		"libraries",
+		"modules",
+		"import"
+	],
+	"author": "Bharath <bharathvaj1995@gmail.com> (http://www.bharathvaj.me/)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/bharathvaj1995/effortless-require/issues"
+	},
+	"homepage": "https://github.com/bharathvaj1995/effortless-require#readme",
+	"dependencies": {},
+	"devDependencies": {
+		"chai": "4.1.2",
+		"eslint": "4.13.1",
+		"eslint-config-kentcdodds": "13.0.1",
+		"ghooks": "2.0.2",
+		"mocha": "4.0.1",
+		"npm-run-all": "4.1.2",
+		"nyc": "11.4.1"
+	},
+	"config": {
+		"ghooks": {
+			"pre-commit": "npm run validate"
+		}
+	}
+}
