@@ -13,6 +13,7 @@
 		"lint": "eslint index.js",
 		"test": "nyc mocha",
 		"watch:test": "mocha --watch",
+		"report-coverage": "cat ./coverage/lcov.info | codecov",
 		"validate": "npm-run-all --parallel lint test"
 	},
 	"repository": {
@@ -35,12 +36,20 @@
 	"dependencies": {},
 	"devDependencies": {
 		"chai": "4.1.2",
+		"codecov": "3.0.0",
 		"eslint": "4.13.1",
 		"eslint-config-kentcdodds": "13.0.1",
 		"ghooks": "2.0.2",
 		"mocha": "4.0.1",
 		"npm-run-all": "4.1.2",
 		"nyc": "11.4.1"
+	},
+	"nyc": {
+		"check-coverage": true,
+		"reporter": [
+			"text",
+			"lcov"
+		]
 	},
 	"config": {
 		"ghooks": {
