@@ -1,5 +1,5 @@
 {
-	"name": "bharath-effortless-require",
+	"name": "bharath-require",
 	"version": "0.0.1",
 	"description": "Effortlessly require node libraries",
 	"main": "index.js",
