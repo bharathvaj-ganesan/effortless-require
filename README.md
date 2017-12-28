@@ -1,5 +1,5 @@
-https://img.shields.io/travis/bharathvaj1995/effortless-require.svg https://img.shields.io/codecov/c/github/bharathvaj1995/effortless-require.svg
-
+[![Build Status](https://img.shields.io/travis/bharathvaj1995/effortless-require.svg)](https://travis-ci.org/bharathvaj1995/effortless-require)
+[![Coverage Status](https://img.shields.io/codecov/c/github/bharathvaj1995/effortless-require.svg)](https://codecov.io/gh/bharathvaj1995/effortless-require)
 # bharath-require
 Effortlessly require node libraries, providing a more flexible way of requiring libraries and modules in your project.
 
