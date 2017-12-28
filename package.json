@@ -3,6 +3,12 @@
 	"version": "0.0.1",
 	"description": "Effortlessly require node libraries",
 	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"engines": {
+		"node": ">=6.0.0"
+	},
 	"scripts": {
 		"lint": "eslint index.js",
 		"test": "nyc mocha",
