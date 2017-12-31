@@ -1,5 +1,10 @@
 'use strict';
 
+/**
+ * Wrapper function
+ * 
+ * @param {Object} options 'basePath' of the modules
+ */
 module.exports = (options = {}) => {
 	const eRequire = (...args) => {
 		const modules = [];
