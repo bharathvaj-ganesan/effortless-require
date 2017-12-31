@@ -1,6 +1,6 @@
 {
   "name": "effortless-require",
-  "version": "1.0.0",
+  "version": "0.0.0-semantically-released",
   "description": "Effortlessly require node libraries",
   "main": "index.js",
   "files": [

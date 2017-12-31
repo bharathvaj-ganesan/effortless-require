@@ -5,7 +5,9 @@
 </h1>
 
 [![Build Status](https://img.shields.io/travis/bharathvaj1995/effortless-require.svg)](https://travis-ci.org/bharathvaj1995/effortless-require)
-[![Coverage Status](https://img.shields.io/codecov/c/github/bharathvaj1995/effortless-require.svg)](https://codecov.io/gh/bharathvaj1995/effortless-require)
+[![Coverage Status](https://img.shields.io/codecov/c/github/bharathvaj1995/effortless-require.svg)]
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+(https://codecov.io/gh/bharathvaj1995/effortless-require)
 [![Bharath Rule](https://img.shields.io/badge/bharath-cool-brightgreen.svg)](https://github.com/bharathvaj1995)
 
 ## effortless-require
