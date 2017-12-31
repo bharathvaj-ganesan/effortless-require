@@ -10,6 +10,8 @@
 [![Bharath Rule](https://img.shields.io/badge/bharath-100%25-brightgreen.svg)](https://github.com/bharathvaj1995)
 
 ## effortless-require
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/bharathvaj1995/effortless-require.svg)](https://greenkeeper.io/)
 Effortlessly require node libraries, providing a more flexible way of requiring libraries and modules in your project.
 
 ## Installation
