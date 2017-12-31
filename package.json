@@ -1,6 +1,6 @@
 {
-  "name": "bharath-require",
-  "version": "0.0.0-development",
+  "name": "effortless-require",
+  "version": "1.0.0",
   "description": "Effortlessly require node libraries",
   "main": "index.js",
   "files": [
