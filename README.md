@@ -17,7 +17,7 @@ $ npm install effortless-require --save
 ```
 
 ## Features
-* Require attract only once, at your application's start, and it will be globally available, everywhere.
+* Require only once, at your application's start, and it will be globally available, everywhere.
 * Say goodbye to ugly relative paths.
 
 ## Usage
